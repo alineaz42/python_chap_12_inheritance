@@ -1,3 +1,8 @@
+# single inheritance
+# multiple inheritance
+# multilevel inheritance
+
+# !1 single inheritance
 # video 9:50Hours
 
 class Employee:
