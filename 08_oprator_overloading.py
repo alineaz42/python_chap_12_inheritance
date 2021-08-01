@@ -10,14 +10,34 @@ class Number:
         print("Lets multiply")
         return self.num*num2.num
 
+    def __sub__(self, num2):
+        print("Lets sub")
+        return self.num-num2.num
+
+    def __truediv__(self, num2):
+        print("Lets truediv")
+        return self.num/num2.num
+
+    def __floordiv__(self, num2):
+        print("Lets floordiv")
+        return self.num//num2.num
+
 
 # search for overloading google
-n1 = Number(4)
-n2 = Number(6)
+n1 = Number(10)
+n2 = Number(5)
 sum = n1+n2
 mul = n1*n2
+sub = n1-n2
+truediv = n1/n1
+floordiv = n1//n2
+
+
 print(sum)
 print(mul)
+print(sub)
+print(truediv)
+print(floordiv)
 
 
 '''
